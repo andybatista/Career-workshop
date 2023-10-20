@@ -6,7 +6,7 @@ h1{
 
 .navbar ul{
     list-style-type: none;
-    background-color: darkgrey;
+    background-color: #0D1321;
     padding: 0px;
     margin: 0px
     overflow: hidden; 
@@ -20,16 +20,17 @@ h1{
     text-align:center ;
 }
 .navbar a:hover{
-    background-color: black
+    background-color: #748CAB
 }
 .navbar li{
-    float:center;
+    float: center;
 }
 
 h3{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: oblique;
     text-align:center;
+    color:white
 
 }
 
@@ -42,12 +43,13 @@ h3{
 }
 
 .box-1{
-    background-color:#333;
+    background-color:0D1321;
     color: #fff;
     border:5px white solid;
     border-width:2px;
     padding: 10px;
     margin-top: 0px;
+    text-wrap: wrap;
 
 }
 
@@ -67,5 +69,23 @@ p{
 
 .photo{
     border: 5px white solid;
+    
+}
+
+.project{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body{
+    background-color: #3E5C76;
+}
+
+.project2{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto
     
 }
